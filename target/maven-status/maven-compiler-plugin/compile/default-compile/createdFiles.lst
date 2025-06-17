@@ -1,0 +1,6 @@
+com\xebec\journalApp\controller\HealthCheck.class
+com\xebec\journalApp\repository\JournalEntryRepository.class
+com\xebec\journalApp\entity\JournalEntry.class
+com\xebec\journalApp\controller\JournalEntryControllerV2.class
+com\xebec\journalApp\JournalApplication.class
+com\xebec\journalApp\service\JournalEntryService.class
