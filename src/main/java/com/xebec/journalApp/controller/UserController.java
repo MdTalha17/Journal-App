@@ -1,22 +1,15 @@
 package com.xebec.journalApp.controller;
 
 
-import com.xebec.journalApp.entity.JournalEntry;
 import com.xebec.journalApp.entity.User;
 import com.xebec.journalApp.repository.UserRepository;
-import com.xebec.journalApp.service.JournalEntryService;
 import com.xebec.journalApp.service.UserService;
-import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.*;
-
-import java.time.LocalDateTime;
-import java.util.List;
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/user")
@@ -36,7 +29,7 @@ public class UserController {
         User userInDb = userService.findByUserName(userName);
         userInDb.setUserName(user.getUserName());
         userInDb.setPassword(user.getPassword());
-        userService.saveEntry(userInDb);
+        userService.saveNewUser(userInDb);
 
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }

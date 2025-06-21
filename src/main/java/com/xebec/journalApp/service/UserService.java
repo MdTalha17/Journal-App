@@ -1,8 +1,6 @@
 package com.xebec.journalApp.service;
 
-import com.xebec.journalApp.entity.JournalEntry;
 import com.xebec.journalApp.entity.User;
-import com.xebec.journalApp.repository.JournalEntryRepository;
 import com.xebec.journalApp.repository.UserRepository;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,9 +20,13 @@ public class UserService {
 
     private static final PasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
 
-    public void saveEntry(User user){
+    public void saveNewUser(User user){
         user.setPassword(passwordEncoder.encode(user.getPassword()));
         user.setRoles(Arrays.asList("USER"));
+        userRepository.save(user);
+    }
+
+    public void saveUser(User user){
         userRepository.save(user);
     }
 
