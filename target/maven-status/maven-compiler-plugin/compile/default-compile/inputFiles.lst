@@ -1,6 +1,14 @@
-D:\Java\SpringBoot\journalApp\src\main\java\com\xebec\journalApp\controller\HealthCheck.java
+D:\Java\SpringBoot\journalApp\src\main\java\com\xebec\journalApp\config\SpringSecurity.java
+D:\Java\SpringBoot\journalApp\src\main\java\com\xebec\journalApp\config\TransactionConfig.java
+D:\Java\SpringBoot\journalApp\src\main\java\com\xebec\journalApp\controller\AdminController.java
 D:\Java\SpringBoot\journalApp\src\main\java\com\xebec\journalApp\controller\JournalEntryControllerV2.java
+D:\Java\SpringBoot\journalApp\src\main\java\com\xebec\journalApp\controller\PublicController.java
+D:\Java\SpringBoot\journalApp\src\main\java\com\xebec\journalApp\controller\UserController.java
 D:\Java\SpringBoot\journalApp\src\main\java\com\xebec\journalApp\entity\JournalEntry.java
+D:\Java\SpringBoot\journalApp\src\main\java\com\xebec\journalApp\entity\User.java
 D:\Java\SpringBoot\journalApp\src\main\java\com\xebec\journalApp\JournalApplication.java
 D:\Java\SpringBoot\journalApp\src\main\java\com\xebec\journalApp\repository\JournalEntryRepository.java
+D:\Java\SpringBoot\journalApp\src\main\java\com\xebec\journalApp\repository\UserRepository.java
 D:\Java\SpringBoot\journalApp\src\main\java\com\xebec\journalApp\service\JournalEntryService.java
+D:\Java\SpringBoot\journalApp\src\main\java\com\xebec\journalApp\service\UserDetailsServiceImpl.java
+D:\Java\SpringBoot\journalApp\src\main\java\com\xebec\journalApp\service\UserService.java
