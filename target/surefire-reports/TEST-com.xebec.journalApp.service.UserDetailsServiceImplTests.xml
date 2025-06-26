@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.xebec.journalApp.service.UserServiceTests" time="0.06" tests="1" errors="0" skipped="1" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.xebec.journalApp.service.UserDetailsServiceImplTests" time="0.716" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -65,10 +65,5 @@
     <property name="java.class.version" value="65.0"/>
     <property name="LOGGED_APPLICATION_NAME" value="[Journal App] "/>
   </properties>
-  <testcase name="test(int, int, int)" classname="com.xebec.journalApp.service.UserServiceTests" time="0.0">
-    <skipped message="public void com.xebec.journalApp.service.UserServiceTests.test(int,int,int) is @Disabled"/>
-    <system-out><![CDATA[2025-06-26T18:40:38.532+05:30  INFO 15684 --- [Journal App] [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.xebec.journalApp.service.UserServiceTests]: UserServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2025-06-26T18:40:38.565+05:30  INFO 15684 --- [Journal App] [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.xebec.journalApp.JournalApplication for test class com.xebec.journalApp.service.UserServiceTests
-]]></system-out>
-  </testcase>
+  <testcase name="loadUserByUsernameTest" classname="com.xebec.journalApp.service.UserDetailsServiceImplTests" time="0.706"/>
 </testsuite>

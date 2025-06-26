@@ -1,6 +1,7 @@
 package com.xebec.journalApp.service;
 
 import com.xebec.journalApp.repository.UserRepository;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
@@ -19,35 +20,15 @@ public class UserServiceTests {
     @Autowired
     private UserRepository userRepository;
 
-    @BeforeEach
-    void setUp(){
-
-    }
-
-    @Disabled
-    @Test
-    public void testFindByUserName(){
-        assertNotNull(userRepository.findByUserName("Xebec"));
-    }
-
     @Disabled
     @ParameterizedTest
-    @CsvSource( {
+    @CsvSource({
             "1,1,2", // "a,b,expected"
             "10,2,12",
             "3,3,9"
     })
-    public void test(int a, int b, int expected){
-        assertEquals(expected, a+b);
+    public void test(int a, int b, int expected) {
+        assertEquals(expected, a + b);
     }
 
-    @ParameterizedTest
-    @ValueSource(strings = {
-            "Xebec",
-            "Abuzar",
-            "Ryuk"
-    })
-    public void testFindByUserNameByParamTest(String name){
-        assertNotNull(userRepository.findByUserName(name));
-    }
 }

@@ -1,5 +1,15 @@
+com\xebec\journalApp\controller\PublicController.class
+com\xebec\journalApp\service\UserDetailsServiceImpl.class
+com\xebec\journalApp\config\TransactionConfig.class
 com\xebec\journalApp\JournalApplication.class
+com\xebec\journalApp\service\UserService.class
+com\xebec\journalApp\controller\UserController.class
 com\xebec\journalApp\repository\JournalEntryRepository.class
+com\xebec\journalApp\entity\User.class
+com\xebec\journalApp\repository\UserRepository.class
 com\xebec\journalApp\entity\JournalEntry.class
 com\xebec\journalApp\controller\JournalEntryControllerV2.class
+com\xebec\journalApp\entity\User$UserBuilder.class
+com\xebec\journalApp\config\SpringSecurity.class
 com\xebec\journalApp\service\JournalEntryService.class
+com\xebec\journalApp\controller\AdminController.class

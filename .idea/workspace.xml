@@ -5,8 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5f068fb-98e5-463e-88ab-76a8dfafe461" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xebec/journalApp/service/UserDetailsServiceImplTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-prod.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xebec/journalApp/JournalApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xebec/journalApp/JournalApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xebec/journalApp/config/SpringSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xebec/journalApp/config/SpringSecurity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/xebec/journalApp/service/UserServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xebec/journalApp/service/UserServiceTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/journalApp-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/journalApp-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2025-06-14T20-30-00_185.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2025-06-24T02-58-29_708.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.xebec.journalApp.JournalAppApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.xebec.journalApp.JournalAppApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.xebec.journalApp.service.UserServiceTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.xebec.journalApp.service.UserServiceTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.xebec.journalApp.JournalAppApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.xebec.journalApp.JournalAppApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.xebec.journalApp.service.UserServiceTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.xebec.journalApp.service.UserServiceTests.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +73,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.JournalApplication.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserDetailsServiceImplTests.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.UserServiceTests.executor&quot;: &quot;Run&quot;,
     &quot;Maven.journalApp [clean].executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
@@ -74,6 +91,7 @@
       <recent name="D:\Java\SpringBoot\journalApp\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xebec.journalApp.config" />
       <recent name="com.xebec.journalApp.controller" />
     </key>
   </component>
@@ -82,8 +100,8 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserDetailsServiceImplTests">
-    <configuration name="JournalApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.JournalApplication">
+    <configuration name="JournalApplication" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xebec.journalApp.JournalApplication" />
       <module name="journalApp" />
       <extension name="coverage">
@@ -106,6 +124,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.xebec.journalApp.service" />
       <option name="MAIN_CLASS_NAME" value="com.xebec.journalApp.service.UserDetailsServiceImplTests" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,11 +145,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.JournalApplication" />
+      <item itemvalue="JUnit.UserDetailsServiceImplTests" />
+      <item itemvalue="JUnit.UserServiceTests" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserDetailsServiceImplTests" />
-        <item itemvalue="Application.JournalApplication" />
         <item itemvalue="JUnit.UserServiceTests" />
+        <item itemvalue="JUnit.UserDetailsServiceImplTests" />
       </list>
     </recent_temporary>
   </component>

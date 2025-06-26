@@ -1,1 +1,3 @@
 com\xebec\journalApp\JournalAppApplicationTests.class
+com\xebec\journalApp\service\UserDetailsServiceImplTests.class
+com\xebec\journalApp\service\UserServiceTests.class
