@@ -3,6 +3,7 @@ package com.xebec.journalApp.service;
 import com.xebec.journalApp.entity.JournalEntry;
 import com.xebec.journalApp.entity.User;
 import com.xebec.journalApp.repository.JournalEntryRepository;
+import lombok.extern.slf4j.Slf4j;
 import org.bson.types.ObjectId;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,6 +16,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Component
+@Slf4j
 public class JournalEntryService {
 
     @Autowired
@@ -59,7 +61,7 @@ public class JournalEntryService {
                 journalEntryRepository.deleteById(id);
             }
         } catch (Exception e) {
-            System.out.println(e);
+            log.error("Error", e);
             throw new RuntimeException("An error occurred while deleting the entry", e);
         }
         return removed;
