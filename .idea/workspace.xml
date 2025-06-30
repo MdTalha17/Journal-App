@@ -6,19 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f5f068fb-98e5-463e-88ab-76a8dfafe461" name="Changes" comment="Initial Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xebec/journalApp/service/JournalEntryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xebec/journalApp/service/JournalEntryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xebec/journalApp/JournalAppApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xebec/journalApp/JournalAppApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xebec/journalApp/service/UserDetailsServiceImplTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xebec/journalApp/service/UserDetailsServiceImplTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xebec/journalApp/service/UserServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xebec/journalApp/service/UserServiceTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/journalApp-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/journalApp-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2025-06-26T18-40-27_032.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.xebec.journalApp.JournalAppApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.xebec.journalApp.JournalAppApplicationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.xebec.journalApp.service.UserDetailsServiceImplTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.xebec.journalApp.service.UserDetailsServiceImplTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.xebec.journalApp.service.UserServiceTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.xebec.journalApp.service.UserServiceTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.xebec.journalApp.JournalAppApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.xebec.journalApp.JournalAppApplicationTests.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.xebec.journalApp.service.UserDetailsServiceImplTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.xebec.journalApp.service.UserDetailsServiceImplTests.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.xebec.journalApp.service.UserServiceTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.xebec.journalApp.service.UserServiceTests.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
